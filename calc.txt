@@ -1,43 +1,21 @@
 def add(x,y):
-    
     return x+y
-
 def sub(x,y):
-   
-    return x-y
-
+   return x-y
 def multi(x,y):
-   
-    return x*y
-
+   return x*y
 def div(x,y):
-    
     return x/y
-    
-
 op = input('enter op:')
-
 x = int(input('enter num1:'))
-
 y = int(input('enter num2:'))
-    
-
 if op == 'add':
-    
     print(add(x,y))
-
 elif op == 'sub':
-    
     print(sub(x,y))
-
 elif op == 'multi':
-   
-    print(multi(x,y))
-
+   print(multi(x,y))
 elif op == 'div':
-  
-    print(div(x,y))
-
+   print(div(x,y))
 else:
-   
-    print('Inavid Input')
+   print('Inavid Input')
